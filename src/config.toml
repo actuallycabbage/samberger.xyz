@@ -1,0 +1,40 @@
+title = "Sam Berger"
+author = "Sam Berger"
+baseURL = "https://www.samberger.xyz"
+languageCode = "en-us"
+theme = "hugo-goa"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "../public"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+relativeURLs = true
+
+[params]
+author = "Sam Berger"
+intro = ""
+description = ""
+dateformat = "Jan 2, 2006"
+authorimage = "sam.jpg" # Found under static/img
+
+[params.meta]
+description = "Sam Berger's homepage"
+
+[params.social]
+github = "actuallycabbage"
+twitter = "sambe247"
+
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "/about/"
+
+[params.extra]
+copyright = "© 2021. Sam Berger."
+poweredby = true
+highlightjs = true
+displayrssicon = false
