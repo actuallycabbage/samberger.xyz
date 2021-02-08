@@ -32,6 +32,6 @@ jobs:
           # Append "extended_" to the begining to use Hugo Extended.
           args: --gc --minify --cleanDestinationDir
           # Use if you want to pass some custom arguments to Hugo.
-          siteDir: /github/workspace/site
+          siteDir: /github/workspace/src
           # Use this if your site isn't in the root of your repo.
           # The root of your repo can be found at /github/workspace
